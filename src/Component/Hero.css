@@ -1,0 +1,157 @@
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#f9f9f9 ;
+    height: 100vh;
+}
+.hero{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    height: 50%;
+    width: 100%;
+
+}
+  /* background-color: #FFCF2D; */
+.text-area{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    width: 450px;
+    gap: 1rem;
+}
+.text-area h1{
+    font-size: 4rem;
+    line-height: 1.2;
+}
+.text-area p{
+    font-size: 1.2rem;
+    font-family: Mulish,sans-serif;
+    line-height: 1.6;
+}
+.text-area .social svg {
+     margin-right: 1rem;
+     font-size: 2rem;
+     cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.text-area .social svg:hover{
+    color: #FFCF2D ;
+}
+.img img{
+    display: block;
+    margin-top: 1rem;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #2d2e32;
+    object-position: center top;
+    position: relative;
+    
+    /* animation: rotate 10000s linear infinite;
+} */}
+/* @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
+.tech-stack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.mystack{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.mystack strong{
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+.tech-stack ul{
+    display: flex;
+    margin-left: 2rem;
+    gap: 1.5rem;
+}
+.tech-stack li{
+    list-style: none;
+    width: 65px;
+    height: 65px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    cursor: pointer;
+}
+.tech-stack img{
+    height: 40px;
+}
+
+@media (max-width: 900px) {
+   
+    .hero{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 0.1rem;
+        margin-top: 8rem;
+    }
+    .text-area{
+        text-align: center;
+    }
+    .tech-stack{
+      margin-top: 9rem;  
+      
+    }
+    .mystack{
+        width: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    .mystack .line{
+        display: none;
+    }
+    .mystack strong{
+        padding-bottom: 1rem;
+        border-bottom: 2px solid rgba(45,46,50,.5);
+    }
+    .tech-stack ul{
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+      
+    }
+    .tech-stack li{  
+        width: 60px;
+        height: 60px;  
+    }
+    .tech-stack img{
+        height: 35px;
+    }
+}
+@media (max-width: 650px) {
+
+    .hero-section{
+        height: 110vh;
+    }
+    .tech-stack{
+        margin-top: 6rem;  
+        
+      }
+  
+   
+}

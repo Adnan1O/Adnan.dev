@@ -1,0 +1,33 @@
+Footer{
+    height: 130px;
+    background-color: #2d2e32;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem ;
+}
+.icons svg{
+    font-size: 1.7rem;
+    margin-right: 1rem;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+.icons svg:hover{
+    font-size: 2rem;
+  
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width:700px) {
+    Footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        padding: 0rem 0rem ;
+    }
+
+}

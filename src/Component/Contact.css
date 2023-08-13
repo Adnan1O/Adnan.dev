@@ -1,0 +1,67 @@
+.contactme{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 300px;
+    text-align: start;
+}
+.Contact{
+ 
+    width: 900px;
+    padding-left: 5rem;   
+}
+.Contact .title{
+    font-size: 1.5rem;
+    color: #FFCF2D ;
+}
+.Contact h2 {
+   font-size:2rem;
+
+}
+.location-mail{
+    display: flex;
+    gap: 5rem;
+}
+.location-mail a{
+    text-decoration: none;
+}
+
+.location{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+.location .text{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    text-align: start; 
+}
+.location .text h3{
+    font-size: 1.4rem;  
+}
+.location .text p{
+    font-size: 1.1rem;
+    letter-spacing: 1px;   
+    color: #767676;
+    transition: 0.2s ease-in;
+}
+.location .text p:hover{
+    color: #FFCF2D
+}
+@media (max-width: 700px) {
+    .location-mail{
+        display: flex;
+        flex-direction: column;
+
+        gap: 0rem;
+    }
+    .contactme{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 400px;
+        text-align: start;
+    }
+}
