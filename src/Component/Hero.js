@@ -16,8 +16,8 @@ function Hero() {
         <h1>Fullstack Web Developer <img src={helmet} alt="" height={40} /></h1>
         <p>Hi, I'm Adnan Shaikh. A passionate Fullstack React Developer based in Hyderabad, India. 📍</p>
         <div className="social">
-        <BsLinkedin/>
-        <SiGithub/>
+        <a target='_blank' rel="noreferrer" href="www.linkedin.com/in/adnan-shaikh-5b7b9723a"><BsLinkedin/></a>
+        <a target='_blank' rel="noreferrer" href="https://github.com/Adnan1O"><SiGithub/></a>
         </div>
       </div>
       <div className="img">

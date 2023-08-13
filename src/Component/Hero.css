@@ -14,6 +14,7 @@
     width: 100%;
 
 }
+
   /* background-color: #FFCF2D; */
 .text-area{
     text-align: start;
@@ -37,6 +38,11 @@
      font-size: 2rem;
      cursor: pointer;
     transition: 0.2s ease-in;
+}
+
+.text-area .social a {
+    text-decoration: none;
+    color: #2d2e32;
 }
 .text-area .social svg:hover{
     color: #FFCF2D ;
