@@ -178,4 +178,16 @@
       .hero{
         margin-top: 5rem;
     }
+    .tech-stack ul{
+        gap: 0.8rem;
+      padding-right: 1.7rem;
+    }
+    .tech-stack li{  
+        width: 55px;
+        height: 55px;  
+    }
+    .tech-stack img{
+        height: 30px;
+    }
+    
 }
