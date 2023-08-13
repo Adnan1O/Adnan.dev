@@ -145,13 +145,16 @@
 }
 @media (max-width: 650px) {
 
-    .hero-section{
+    /* .hero-section{
         height: 110vh;
-    }
+    } */
     .tech-stack{
         margin-top: 6rem;  
         
       }
+      .hero{
+        margin-top: 5rem;
+    }
   
    
 }
@@ -162,7 +165,17 @@
     }
     .text-area p{
         font-size: 1rem;
-      
-        padding: 0 0.5rem  ;
+        padding: 0 1rem  ;
+    }
+    .text-area{
+        margin-top: 2rem;
+        width: 400px;
+    }
+    .tech-stack{
+        margin-top: 3rem;  
+        
+      }
+      .hero{
+        margin-top: 5rem;
     }
 }
