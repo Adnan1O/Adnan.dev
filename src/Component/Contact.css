@@ -6,9 +6,9 @@
     text-align: start;
 }
 .Contact{
- 
     width: 900px;
-    padding-left: 5rem;   
+    padding-left: 5rem;  
+
 }
 .Contact .title{
     font-size: 1.5rem;
@@ -64,4 +64,7 @@
         height: 400px;
         text-align: start;
     }
+}
+@media (max-width: 450px) {
+ 
 }

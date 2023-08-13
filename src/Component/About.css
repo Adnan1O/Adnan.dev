@@ -79,3 +79,21 @@
        
     }
 }
+@media (max-width: 450px) {
+    .aboutme{
+        text-align:center;
+        width: 400px;
+          margin-top: 2rem;   
+    }
+    .aboutme h3{
+        font-size: 1.5rem;
+    }
+    .aboutme h4{
+        font-size: 1.5rem;
+    }
+    .aboutme p{
+        font-size: 1rem;
+        padding: 0 0.5rem;
+      
+    }
+}

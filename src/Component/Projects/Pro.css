@@ -167,3 +167,40 @@ position: absolute;
   height: 400px; 
 }
 }
+@media (max-width: 450px) {
+  .pro{
+    width: 380px;
+   
+}
+.image-container{
+  width: 350px; 
+}
+.video-container{
+  width: 350px; 
+
+}
+.pro-details p{ 
+  line-height: 1.5;
+  font-size: 1rem;
+  letter-spacing: .5px;
+
+}
+.pro-details{
+  width: 80%;
+
+}
+.stack-small{
+ 
+  margin:1rem 0;
+  width: 100%;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pro-details h3{
+
+  font-size: 1.3rem;
+  
+}
+}

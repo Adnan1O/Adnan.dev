@@ -30,3 +30,15 @@
     }
   
 }
+@media (max-width: 450px) {
+    .projects .tit{
+     
+        font-size: 1rem;
+        color: #FFCF2D;
+    }
+    .projects .High{
+
+        font-size: 1.5rem;
+      
+    }
+}
